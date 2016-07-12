@@ -31,11 +31,12 @@ app.controller('ClothingIndexCtrl', function($scope, ClothingService){
 
 app.controller('ClothingShowCtrl', function($scope, ClothingService, $routeParams){
   $scope.clothes = ClothingService.get($routeParams.id);
+  console.log($scope.clothes.name);
 });
 
-app.controller('CheckoutCtrl', function($scope, ClothingService, $routeParams){
-  $scope.clothes = ClothingService.get($routeParams.id);
-});
+// app.controller('CheckoutCtrl', function($scope, ClothingService, $routeParams){
+//   $scope.clothes = ClothingService.get($routeParams.id);
+// });
 
 
 app.factory('ClothingService', function($http){
