@@ -1,0 +1,22 @@
+{
+  "name": "online",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sully1313/onlineStore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sully1313/onlineStore/issues"
+  },
+  "homepage": "https://github.com/sully1313/onlineStore#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "description": ""
+}
